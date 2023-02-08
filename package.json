@@ -12,7 +12,7 @@
   "main": ".eslintrc.js",
   "scripts": {
     "all": "run-p serve start",
-    "serve": "npx json-server --watch server/db/index.js",
+    "serve": "npx json-server server/db/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
     "start": "npx live-server client --host=localhost --port=5500 --no-browser"
